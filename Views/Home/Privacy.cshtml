@@ -1,0 +1,26 @@
+﻿@{
+    ViewData["Title"] = "Privacy Policy";
+}
+<h1>Privacy Policy</h1>
+<p>Use this page to detail your site's privacy policy.</p>
+
+@if (ViewBag.Version != null)
+{
+    <p>Version: @ViewBag.Version</p>
+}
+
+@if (ViewBag.CnnSnippet != null)
+{
+    <h2>CNN Snippet</h2>
+    <p>@ViewBag.CnnSnippet</p>
+}
+
+@if (ViewBag.CnnError != null)
+{
+    <p class="text-danger">@ViewBag.CnnError</p>
+}
+
+@if (ViewBag.ErrorMessage != null)
+{
+    <p class="text-danger">@ViewBag.ErrorMessage</p>
+}

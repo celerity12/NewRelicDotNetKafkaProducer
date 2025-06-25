@@ -1,0 +1,27 @@
+﻿@model HellowWebAppSR.Models.WeatherData
+
+@{
+    ViewData["Title"] = "Weather Details";
+}
+
+<h1>Weather Details</h1>
+
+<p><strong>Unique ID:</strong> @ViewBag.UniqueId</p>
+
+@if (Model != null)
+{
+    <p><strong>City:</strong> @Model.Name</p>
+    <p><strong>Temperature:</strong> @Model.Main.Temp °F</p>
+    <p><strong>Feels Like:</strong> @Model.Main.FeelsLike °F</p>
+    <p><strong>Humidity:</strong> @Model.Main.Humidity %</p>
+    <p><strong>Description:</strong> @Model.Weather[0].Description</p>
+}
+else
+{
+    <p>Weather data not available.</p>
+}
+
+<div>
+    <a asp-action="GetWeatherProducer">Check Another Zip Code</a> |
+    <a asp-action="Index">Back to Home</a>
+</div>
