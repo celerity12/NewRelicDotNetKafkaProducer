@@ -10,6 +10,7 @@ using System.Threading.Tasks;
 using System.Collections.Concurrent;
 using NewRelic.Api.Agent;
 using System.Runtime.CompilerServices;
+using System.Transactions;
 
 namespace HellowWebAppSR.Controllers
 {
@@ -23,12 +24,19 @@ namespace HellowWebAppSR.Controllers
         private const string KafkaTopic = "demo-topic";
         private const string KafkaGroupId = "demo-group";
         #endregion
-        public HomeController(ILogger<HomeController> logger)
+
+        // Add field
+        private readonly HellowWebAppSR.Services.IBingService _bingService;
+
+        // Update constructor
+        public HomeController(ILogger<HomeController> logger, HellowWebAppSR.Services.IBingService bingService)
         {
             this._logger = logger;
             this._httpClient = new HttpClient();
             _logger.LogInformation("HomeController initialized.");
+            _bingService = bingService;
         }
+
         public IActionResult Index()
         {
             string language = "english";
@@ -100,6 +108,7 @@ namespace HellowWebAppSR.Controllers
         [Route("/Home/Privacy/{num1}/SRHW/{num2}/{version}/privacy.html")]
         public async Task<IActionResult> PrivacyWithNumbers(int num1, int num2, string version)
         {
+            NewRelic.Api.Agent.NewRelic.SetTransactionName("Home/SRHW/Privacy/WithNumbers", version);
             Random random = new Random();
             if (random.NextDouble() < 0.5)
             {
@@ -124,14 +133,17 @@ namespace HellowWebAppSR.Controllers
             }
             try
             {
-                using (HttpClient client = new HttpClient())
+                try
                 {
-                    HttpResponseMessage response = await client.GetAsync("https://www.bing.com");
-                    response.EnsureSuccessStatusCode();
-                    string html = await response.Content.ReadAsStringAsync();
-                    string snippet = html.Substring(0, Math.Min(5000, html.Length));
+                    string snippet = await _bingService.GetBingSnippetAsync();
                     ViewBag.CnnSnippet = snippet;
                 }
+                catch (HttpRequestException ex)
+                {
+                    ViewBag.CnnError = $"Error fetching CNN: {ex.Message}";
+                }
+               
+               
             }
             catch (HttpRequestException ex)
             {
@@ -140,6 +152,11 @@ namespace HellowWebAppSR.Controllers
             ViewBag.Num1 = num1;
             ViewBag.Num2 = num2;
             ViewBag.Version = version;
+            //Add custom attributes to New Relic transaction
+            NewRelic.Api.Agent.ITransaction transaction = NewRelic.Api.Agent.NewRelic.GetAgent().CurrentTransaction;
+            transaction.AddCustomAttribute("Num1", num1);
+            transaction.AddCustomAttribute("Num2", num2);
+            transaction.AddCustomAttribute("Version", version);
             return View("Privacy");
         }
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

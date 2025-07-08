@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "6+b2so1Zkuo=",
+  "dgSpecHash": "RBPOXPa4gcg=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Administrator\\Documents\\GitHub\\HellowWebAppSR\\HellowWebAppSR.csproj",
+  "projectFilePath": "C:\\Users\\Administrator\\Documents\\GitHubNew\\HellowWebAppSR_Producer\\HellowWebAppSR.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Administrator\\.nuget\\packages\\confluent.kafka\\2.10.1\\confluent.kafka.2.10.1.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\librdkafka.redist\\2.10.1\\librdkafka.redist.2.10.1.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\newrelic.agent.api\\10.41.0\\newrelic.agent.api.10.41.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\8.0.15\\microsoft.netcore.app.runtime.win-x64.8.0.15.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\8.0.15\\microsoft.windowsdesktop.app.runtime.win-x64.8.0.15.nupkg.sha512",

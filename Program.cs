@@ -11,6 +11,8 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+// In Program.cs, inside the builder.Services configuration section, add:
+builder.Services.AddHttpClient<HellowWebAppSR.Services.IBingService, HellowWebAppSR.Services.BingService>();
 
 var app = builder.Build();
 

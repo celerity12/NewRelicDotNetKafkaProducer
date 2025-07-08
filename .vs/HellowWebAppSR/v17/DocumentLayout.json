@@ -1,25 +1,37 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Administrator\\Documents\\GitHub\\HellowWebAppSR\\",
+  "WorkspaceRootPath": "C:\\Users\\Administrator\\Documents\\GitHubNew\\HellowWebAppSR_Producer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{146CF8B1-9026-4253-B615-61394FD1A478}|HellowWebAppSR.csproj|c:\\users\\administrator\\documents\\github\\hellowwebappsr\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{146CF8B1-9026-4253-B615-61394FD1A478}|HellowWebAppSR.csproj|c:\\users\\administrator\\documents\\githubnew\\hellowwebappsr_producer\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{146CF8B1-9026-4253-B615-61394FD1A478}|HellowWebAppSR.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{146CF8B1-9026-4253-B615-61394FD1A478}|HellowWebAppSR.csproj|c:\\users\\administrator\\documents\\github\\hellowwebappsr\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{146CF8B1-9026-4253-B615-61394FD1A478}|HellowWebAppSR.csproj|c:\\users\\administrator\\documents\\githubnew\\hellowwebappsr_producer\\hellowwebappsr.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{146CF8B1-9026-4253-B615-61394FD1A478}|HellowWebAppSR.csproj|solutionrelative:hellowwebappsr.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{146CF8B1-9026-4253-B615-61394FD1A478}|HellowWebAppSR.csproj|c:\\users\\administrator\\documents\\githubnew\\hellowwebappsr_producer\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{146CF8B1-9026-4253-B615-61394FD1A478}|HellowWebAppSR.csproj|solutionrelative:views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{146CF8B1-9026-4253-B615-61394FD1A478}|HellowWebAppSR.csproj|c:\\users\\administrator\\documents\\githubnew\\hellowwebappsr_producer\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{146CF8B1-9026-4253-B615-61394FD1A478}|HellowWebAppSR.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{146CF8B1-9026-4253-B615-61394FD1A478}|HellowWebAppSR.csproj|c:\\users\\administrator\\documents\\githubnew\\hellowwebappsr_producer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{146CF8B1-9026-4253-B615-61394FD1A478}|HellowWebAppSR.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{146CF8B1-9026-4253-B615-61394FD1A478}|HellowWebAppSR.csproj|c:\\users\\administrator\\documents\\github\\hellowwebappsr\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "AbsoluteMoniker": "D:0:0:{146CF8B1-9026-4253-B615-61394FD1A478}|HellowWebAppSR.csproj|c:\\users\\administrator\\documents\\githubnew\\hellowwebappsr_producer\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
       "RelativeMoniker": "D:0:0:{146CF8B1-9026-4253-B615-61394FD1A478}|HellowWebAppSR.csproj|solutionrelative:readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{146CF8B1-9026-4253-B615-61394FD1A478}|HellowWebAppSR.csproj|c:\\users\\administrator\\documents\\github\\hellowwebappsr\\views\\home\\index.en.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{146CF8B1-9026-4253-B615-61394FD1A478}|HellowWebAppSR.csproj|c:\\users\\administrator\\documents\\githubnew\\hellowwebappsr_producer\\views\\home\\index.en.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{146CF8B1-9026-4253-B615-61394FD1A478}|HellowWebAppSR.csproj|solutionrelative:views\\home\\index.en.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{146CF8B1-9026-4253-B615-61394FD1A478}|HellowWebAppSR.csproj|c:\\users\\administrator\\documents\\github\\hellowwebappsr\\models\\weatherdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{146CF8B1-9026-4253-B615-61394FD1A478}|HellowWebAppSR.csproj|c:\\users\\administrator\\documents\\githubnew\\hellowwebappsr_producer\\models\\weatherdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{146CF8B1-9026-4253-B615-61394FD1A478}|HellowWebAppSR.csproj|solutionrelative:models\\weatherdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -30,28 +42,67 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHubNew\\HellowWebAppSR_Producer\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHubNew\\HellowWebAppSR_Producer\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAmwBEAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-08T22:26:03.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHubNew\\HellowWebAppSR_Producer\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHubNew\\HellowWebAppSR_Producer\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-08T22:25:28.318Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "HellowWebAppSR",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHubNew\\HellowWebAppSR_Producer\\HellowWebAppSR.csproj",
+              "RelativeDocumentMoniker": "HellowWebAppSR.csproj",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHubNew\\HellowWebAppSR_Producer\\HellowWebAppSR.csproj",
+              "RelativeToolTip": "HellowWebAppSR.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-08T22:00:29.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\HellowWebAppSR\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHubNew\\HellowWebAppSR_Producer\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\HellowWebAppSR\\Program.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHubNew\\HellowWebAppSR_Producer\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAC8y8zMzAwswA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-12T18:56:17.056Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Index.en.cshtml",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\HellowWebAppSR\\Views\\Home\\Index.en.cshtml",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHubNew\\HellowWebAppSR_Producer\\Views\\Home\\Index.en.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.en.cshtml",
-              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\HellowWebAppSR\\Views\\Home\\Index.en.cshtml",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHubNew\\HellowWebAppSR_Producer\\Views\\Home\\Index.en.cshtml",
               "RelativeToolTip": "Views\\Home\\Index.en.cshtml",
               "ViewState": "AgIAAA4AAAAAAAAAAAAuwCUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -59,37 +110,36 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "README.md",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\HellowWebAppSR\\README.md",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHubNew\\HellowWebAppSR_Producer\\README.md",
               "RelativeDocumentMoniker": "README.md",
-              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\HellowWebAppSR\\README.md",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHubNew\\HellowWebAppSR_Producer\\README.md",
               "RelativeToolTip": "README.md",
               "ViewState": "AgIAAAMAAADA//////8vwCQAAABYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2025-06-12T17:18:52.018Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-12T17:18:52.018Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\HellowWebAppSR\\Controllers\\HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHubNew\\HellowWebAppSR_Producer\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\HellowWebAppSR\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHubNew\\HellowWebAppSR_Producer\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAAHIAAAAAaWZmZuYewIIAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAGUAAACAv8zMzMwLwIUAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-10T22:40:56.994Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "WeatherData.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\HellowWebAppSR\\Models\\WeatherData.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHubNew\\HellowWebAppSR_Producer\\Models\\WeatherData.cs",
               "RelativeDocumentMoniker": "Models\\WeatherData.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\HellowWebAppSR\\Models\\WeatherData.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHubNew\\HellowWebAppSR_Producer\\Models\\WeatherData.cs",
               "RelativeToolTip": "Models\\WeatherData.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

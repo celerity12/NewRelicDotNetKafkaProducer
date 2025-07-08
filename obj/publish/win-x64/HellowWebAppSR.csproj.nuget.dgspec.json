@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Administrator\\Documents\\GitHub\\HellowWebAppSR\\HellowWebAppSR.csproj": {}
+    "C:\\Users\\Administrator\\Documents\\GitHubNew\\HellowWebAppSR_Producer\\HellowWebAppSR.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Administrator\\Documents\\GitHub\\HellowWebAppSR\\HellowWebAppSR.csproj": {
+    "C:\\Users\\Administrator\\Documents\\GitHubNew\\HellowWebAppSR_Producer\\HellowWebAppSR.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Administrator\\Documents\\GitHub\\HellowWebAppSR\\HellowWebAppSR.csproj",
-        "projectName": "HellowWebAppSR",
-        "projectPath": "C:\\Users\\Administrator\\Documents\\GitHub\\HellowWebAppSR\\HellowWebAppSR.csproj",
+        "projectUniqueName": "C:\\Users\\Administrator\\Documents\\GitHubNew\\HellowWebAppSR_Producer\\HellowWebAppSR.csproj",
+        "projectName": "MyCustomProducer",
+        "projectPath": "C:\\Users\\Administrator\\Documents\\GitHubNew\\HellowWebAppSR_Producer\\HellowWebAppSR.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Administrator\\Documents\\GitHub\\HellowWebAppSR\\obj\\publish\\win-x64\\",
+        "outputPath": "C:\\Users\\Administrator\\Documents\\GitHubNew\\HellowWebAppSR_Producer\\obj\\publish\\win-x64\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -50,6 +50,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Confluent.Kafka": {
+              "target": "Package",
+              "version": "[2.10.1, )"
+            },
+            "NewRelic.Agent.Api": {
+              "target": "Package",
+              "version": "[10.41.0, )"
+            },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.3, )"

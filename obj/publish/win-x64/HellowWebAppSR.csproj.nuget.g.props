@@ -13,4 +13,7 @@
     <SourceRoot Include="C:\Users\Administrator\.nuget\packages\" />
     <SourceRoot Include="C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages\" />
   </ItemGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgNewRelic_Agent_Api Condition=" '$(PkgNewRelic_Agent_Api)' == '' ">C:\Users\Administrator\.nuget\packages\newrelic.agent.api\10.41.0</PkgNewRelic_Agent_Api>
+  </PropertyGroup>
 </Project>
